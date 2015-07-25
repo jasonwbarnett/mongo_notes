@@ -1,27 +1,27 @@
-gcloud compute disks create NAME [NAME ...] [--description DESCRIPTION]
-    [--image IMAGE | --source-snapshot SOURCE_SNAPSHOT]
-    [--image-project IMAGE_PROJECT] [--size SIZE] [--type TYPE]
-    [--zone ZONE] [GLOBAL-FLAG ...]
+    gcloud compute disks create NAME [NAME ...] [--description DESCRIPTION]
+        [--image IMAGE | --source-snapshot SOURCE_SNAPSHOT]
+        [--image-project IMAGE_PROJECT] [--size SIZE] [--type TYPE]
+        [--zone ZONE] [GLOBAL-FLAG ...]
 
-gcloud compute instances create NAME [NAME ...]
-    [--boot-disk-device-name BOOT_DISK_DEVICE_NAME]
-    [--boot-disk-size BOOT_DISK_SIZE] [--boot-disk-type BOOT_DISK_TYPE]
-    [--can-ip-forward] [--description DESCRIPTION]
-    [--disk [PROPERTY=VALUE,...]]
-    [--image IMAGE | centos-6 | centos-7 | container-vm | coreos | debian-7
-      | debian-7-backports | opensuse-13 | rhel-6 | rhel-7 | sles-11
-      | sles-12 | ubuntu-12-04 | ubuntu-14-04 | ubuntu-14-10 | ubuntu-15-04
-      | windows-2008-r2 | windows-2012-r2] [--image-project IMAGE_PROJECT]
-    [--local-ssd [PROPERTY=VALUE,...]]
-    [--machine-type MACHINE_TYPE; default="n1-standard-1"]
-    [--maintenance-policy MAINTENANCE_POLICY]
-    [--metadata KEY=VALUE,[KEY=VALUE,...]]
-    [--metadata-from-file KEY=LOCAL_FILE_PATH,[KEY=LOCAL_FILE_PATH,...]]
-    [--network NETWORK; default="default"]
-    [--address ADDRESS | --no-address] [--no-boot-disk-auto-delete]
-    [--no-restart-on-failure] [--preemptible]
-    [--no-scopes | --scopes [ACCOUNT=]SCOPE,[[ACCOUNT=]SCOPE,...]]
-    [--tags TAG,[TAG,...]] [--zone ZONE] [GLOBAL-FLAG ...]
+    gcloud compute instances create NAME [NAME ...]
+        [--boot-disk-device-name BOOT_DISK_DEVICE_NAME]
+        [--boot-disk-size BOOT_DISK_SIZE] [--boot-disk-type BOOT_DISK_TYPE]
+        [--can-ip-forward] [--description DESCRIPTION]
+        [--disk [PROPERTY=VALUE,...]]
+        [--image IMAGE | centos-6 | centos-7 | container-vm | coreos | debian-7
+          | debian-7-backports | opensuse-13 | rhel-6 | rhel-7 | sles-11
+          | sles-12 | ubuntu-12-04 | ubuntu-14-04 | ubuntu-14-10 | ubuntu-15-04
+          | windows-2008-r2 | windows-2012-r2] [--image-project IMAGE_PROJECT]
+        [--local-ssd [PROPERTY=VALUE,...]]
+        [--machine-type MACHINE_TYPE; default="n1-standard-1"]
+        [--maintenance-policy MAINTENANCE_POLICY]
+        [--metadata KEY=VALUE,[KEY=VALUE,...]]
+        [--metadata-from-file KEY=LOCAL_FILE_PATH,[KEY=LOCAL_FILE_PATH,...]]
+        [--network NETWORK; default="default"]
+        [--address ADDRESS | --no-address] [--no-boot-disk-auto-delete]
+        [--no-restart-on-failure] [--preemptible]
+        [--no-scopes | --scopes [ACCOUNT=]SCOPE,[[ACCOUNT=]SCOPE,...]]
+        [--tags TAG,[TAG,...]] [--zone ZONE] [GLOBAL-FLAG ...]
 
     disk types:
       pd-ssd
